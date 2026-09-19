@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/primary.swiftdeps"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/Geometry.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/HintLabels.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/Matcher.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/Merge.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/Occlusion.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/ScreenWindow.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipCore/Target.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.dia"
+  }
+}

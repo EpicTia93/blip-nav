@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip'
+relocations:     []
+...

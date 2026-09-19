@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/primary.swiftdeps"
+  },
+  "/Users/tia/Documents/blip/Sources/blip-probe/main.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.dia"
+  }
+}

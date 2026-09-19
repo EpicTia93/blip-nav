@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.dia"
+  }
+}

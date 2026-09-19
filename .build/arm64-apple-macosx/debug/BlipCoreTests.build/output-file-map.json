@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/primary.swiftdeps"
+  },
+  "/Users/tia/Documents/blip/Tests/BlipCoreTests/GeometryTests.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.dia"
+  },
+  "/Users/tia/Documents/blip/Tests/BlipCoreTests/Helpers.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.dia"
+  },
+  "/Users/tia/Documents/blip/Tests/BlipCoreTests/HintLabelsTests.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.dia"
+  },
+  "/Users/tia/Documents/blip/Tests/BlipCoreTests/MatcherTests.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.dia"
+  },
+  "/Users/tia/Documents/blip/Tests/BlipCoreTests/MergeTests.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.dia"
+  }
+}

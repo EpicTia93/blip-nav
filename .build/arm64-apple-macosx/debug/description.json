@@ -1,0 +1,1831 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.xctest/Contents/MacOS/BlipPackageTests",
+      "packagePath" : "/Users/tia/Documents/blip",
+      "productName" : "BlipPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Blip-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/sources",
+      "importPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/BlipApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/MenuBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/OverlayPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/OverlayState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/OverlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/PermissionMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/SessionController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Blip",
+      "moduleOutputPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/Blip.swiftmodule",
+      "objects" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/AppDelegate.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/BlipApp.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/MenuBarController.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayPanel.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayState.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayView.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/PermissionMonitor.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SessionController.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.2",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Blip_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "blip"
+      ],
+      "outputFileMapPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/BlipApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/MenuBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/PermissionMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SessionController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/Blip.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tia/Documents/blip/Sources/Blip/AppDelegate.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/BlipApp.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/MenuBarController.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/OverlayPanel.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/OverlayState.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/OverlayView.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/PermissionMonitor.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/SessionController.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/SettingsView.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/Theme.swift"
+      ],
+      "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BlipCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/sources",
+      "importPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Geometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/HintLabels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Matcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Merge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Occlusion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/ScreenWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Target.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BlipCore",
+      "moduleOutputPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCore.swiftmodule",
+      "objects" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.2",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/include/BlipCore-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "blip"
+      ],
+      "outputFileMapPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tia/Documents/blip/Sources/BlipCore/Geometry.swift",
+        "/Users/tia/Documents/blip/Sources/BlipCore/HintLabels.swift",
+        "/Users/tia/Documents/blip/Sources/BlipCore/Matcher.swift",
+        "/Users/tia/Documents/blip/Sources/BlipCore/Merge.swift",
+        "/Users/tia/Documents/blip/Sources/BlipCore/Occlusion.swift",
+        "/Users/tia/Documents/blip/Sources/BlipCore/ScreenWindow.swift",
+        "/Users/tia/Documents/blip/Sources/BlipCore/Target.swift"
+      ],
+      "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BlipCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/sources",
+      "importPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/GeometryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/HintLabelsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/MatcherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/MergeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BlipCoreTests",
+      "moduleOutputPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.2",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "blip"
+      ],
+      "outputFileMapPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tia/Documents/blip/Tests/BlipCoreTests/GeometryTests.swift",
+        "/Users/tia/Documents/blip/Tests/BlipCoreTests/Helpers.swift",
+        "/Users/tia/Documents/blip/Tests/BlipCoreTests/HintLabelsTests.swift",
+        "/Users/tia/Documents/blip/Tests/BlipCoreTests/MatcherTests.swift",
+        "/Users/tia/Documents/blip/Tests/BlipCoreTests/MergeTests.swift"
+      ],
+      "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BlipKit-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/sources",
+      "importPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/AXElement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/AXScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Actuator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Log.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/OCRScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Permissions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BlipKit",
+      "moduleOutputPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipKit.swiftmodule",
+      "objects" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.2",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/include/BlipKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "blip"
+      ],
+      "outputFileMapPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tia/Documents/blip/Sources/BlipKit/AXElement.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/AXScanner.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/Actuator.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/Log.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/OCRScanner.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/Permissions.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift"
+      ],
+      "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BlipPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/sources",
+      "importPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BlipPackageTests",
+      "moduleOutputPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.2",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/include/BlipPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "blip"
+      ],
+      "outputFileMapPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.blip-probe-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/sources",
+      "importPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/blip-probe/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/BlipKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "blip_probe",
+      "moduleOutputPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/blip_probe.swiftmodule",
+      "objects" : [
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.2",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "blip_probe_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "blip"
+      ],
+      "outputFileMapPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules/blip_probe.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tia/Documents/blip/Sources/blip-probe/main.swift"
+      ],
+      "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Blip" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Blip",
+      "-package-name",
+      "blip",
+      "-c",
+      "/Users/tia/Documents/blip/Sources/Blip/AppDelegate.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/BlipApp.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/MenuBarController.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/OverlayPanel.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/OverlayState.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/OverlayView.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/PermissionMonitor.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/SessionController.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/SettingsView.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/Theme.swift",
+      "-I",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.2",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Blip_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "blip",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "BlipCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BlipCore",
+      "-package-name",
+      "blip",
+      "-c",
+      "/Users/tia/Documents/blip/Sources/BlipCore/Geometry.swift",
+      "/Users/tia/Documents/blip/Sources/BlipCore/HintLabels.swift",
+      "/Users/tia/Documents/blip/Sources/BlipCore/Matcher.swift",
+      "/Users/tia/Documents/blip/Sources/BlipCore/Merge.swift",
+      "/Users/tia/Documents/blip/Sources/BlipCore/Occlusion.swift",
+      "/Users/tia/Documents/blip/Sources/BlipCore/ScreenWindow.swift",
+      "/Users/tia/Documents/blip/Sources/BlipCore/Target.swift",
+      "-I",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.2",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/include/BlipCore-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "blip",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "BlipCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BlipCoreTests",
+      "-package-name",
+      "blip",
+      "-c",
+      "/Users/tia/Documents/blip/Tests/BlipCoreTests/GeometryTests.swift",
+      "/Users/tia/Documents/blip/Tests/BlipCoreTests/Helpers.swift",
+      "/Users/tia/Documents/blip/Tests/BlipCoreTests/HintLabelsTests.swift",
+      "/Users/tia/Documents/blip/Tests/BlipCoreTests/MatcherTests.swift",
+      "/Users/tia/Documents/blip/Tests/BlipCoreTests/MergeTests.swift",
+      "-I",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.2",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "blip",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "BlipKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BlipKit",
+      "-package-name",
+      "blip",
+      "-c",
+      "/Users/tia/Documents/blip/Sources/BlipKit/AXElement.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/AXScanner.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/Actuator.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/Log.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/OCRScanner.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/Permissions.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift",
+      "-I",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.2",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/include/BlipKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "blip",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "BlipPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BlipPackageTests",
+      "-package-name",
+      "blip",
+      "-c",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.2",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/include/BlipPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "blip",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "blip_probe" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "blip_probe",
+      "-package-name",
+      "blip",
+      "-c",
+      "/Users/tia/Documents/blip/Sources/blip-probe/main.swift",
+      "-I",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.2",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "blip_probe_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "blip",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Blip" : [
+      "BlipKit",
+      "BlipCore"
+    ],
+    "BlipCore" : [
+
+    ],
+    "BlipCoreTests" : [
+      "BlipCore"
+    ],
+    "BlipKit" : [
+      "BlipCore"
+    ],
+    "BlipPackageTests" : [
+      "BlipCoreTests",
+      "BlipCore"
+    ],
+    "blip_probe" : [
+      "BlipKit",
+      "BlipCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip-entitlement.plist"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/BlipApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/MenuBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/OverlayPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/OverlayState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/OverlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/PermissionMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/SessionController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/Theme.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/sources"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/BlipApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/MenuBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/OverlayView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/PermissionMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SessionController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.product/Objects.LinkFileList"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Geometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/HintLabels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Matcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Merge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Occlusion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/ScreenWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipCore/Target.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/sources"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/GeometryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/HintLabelsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/MatcherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Tests/BlipCoreTests/MergeTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/sources"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/AXElement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/AXScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Actuator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Log.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/OCRScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Permissions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/sources"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/sources"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/GeometryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/HintLabelsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MatcherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCoreTests.build/MergeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.build/runner.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip-probe-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip-probe-entitlement.plist"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip-probe.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Matcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Merge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Occlusion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/ScreenWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Target.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip-probe.product/Objects.LinkFileList"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/blip-probe/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/blip_probe.build/sources"
+    },
+    "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+module BlipCore {
+    header "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/include/BlipCore-Swift.h"
+}

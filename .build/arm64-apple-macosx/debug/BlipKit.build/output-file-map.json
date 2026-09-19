@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/primary.swiftdeps"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/AXElement.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXElement.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/AXScanner.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/AXScanner.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/Actuator.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Actuator.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/Log.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Log.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/OCRScanner.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/OCRScanner.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/Permissions.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Permissions.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.dia"
+  },
+  "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.dia"
+  }
+}
