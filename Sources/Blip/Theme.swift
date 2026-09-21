@@ -16,6 +16,18 @@ enum Theme {
     static let ocrHintFill = Color(red: 0x9E / 255, green: 0xDC / 255, blue: 0xFF / 255)
 
     static let hintText = Color.black
+
+    /// Search bar fill. Flat black, and opaque: a system material let whatever is
+    /// behind the bar bleed through and tint it grey, which both muddied the accent
+    /// query text and made the bar read as a panel rather than a heads-up field.
+    static let searchBarFill = Color.black
+    /// The typed query, drawn in the same accent as the pointer it is steering.
+    static let searchBarText = accent
+    /// The placeholder has to read as a hint, not as typed text, while still carrying
+    /// against the dark fill -- so it is dimmed white rather than a dimmed accent.
+    static let searchBarPlaceholder = Color.white.opacity(0.72)
+    /// Match count and other trailing furniture: present, but behind the query.
+    static let searchBarSecondary = Color.white.opacity(0.5)
 }
 
 /// Layout constants for the search bar.

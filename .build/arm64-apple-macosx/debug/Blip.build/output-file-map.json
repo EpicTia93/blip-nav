@@ -65,6 +65,13 @@
     "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swiftdeps",
     "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.dia"
   },
+  "/Users/tia/Documents/blip/Sources/Blip/ShortcutRecorder.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.dia"
+  },
   "/Users/tia/Documents/blip/Sources/Blip/Theme.swift": {
     "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.d",
     "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o",

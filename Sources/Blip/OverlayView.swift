@@ -215,11 +215,12 @@ private struct SearchBar: View {
             HStack(spacing: 3) {
                 if !state.query.isEmpty {
                     Text(state.query)
+                        .foregroundStyle(Theme.searchBarText)
                 }
                 Caret()
                 if state.query.isEmpty {
                     Text("Type to filter, or a number to jump")
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(Theme.searchBarPlaceholder)
                 }
             }
             .font(.system(size: 15, weight: .regular, design: .rounded))
@@ -242,17 +243,17 @@ private struct SearchBar: View {
 
             Text("\(state.visibleTargets.count)")
                 .font(.system(size: 12, weight: .semibold, design: .rounded))
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Theme.searchBarSecondary)
                 .monospacedDigit()
         }
         .padding(.horizontal, 16)
         .frame(width: OverlayMetrics.searchBarWidth, height: OverlayMetrics.searchBarHeight)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .background(Theme.searchBarFill, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 14, style: .continuous)
-                .strokeBorder(Theme.accent.opacity(0.35), lineWidth: 1)
+                .strokeBorder(Theme.accent.opacity(0.45), lineWidth: 1)
         )
-        .shadow(color: .black.opacity(0.35), radius: 24, y: 8)
+        .shadow(color: .black.opacity(0.45), radius: 24, y: 8)
     }
 }
 

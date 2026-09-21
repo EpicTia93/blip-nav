@@ -18,7 +18,7 @@ struct SettingsView: View {
             permissionsTab
                 .tabItem { Label("Permissions", systemImage: "lock.shield") }
         }
-        .frame(width: 460, height: 340)
+        .frame(width: 460, height: 380)
     }
 
     // MARK: - General
@@ -26,10 +26,12 @@ struct SettingsView: View {
     private var generalTab: some View {
         Form {
             Section {
-                Picker("Trigger", selection: triggerBinding) {
-                    ForEach(TriggerModifier.allCases, id: \.self) { modifier in
-                        Text("Double-tap \(modifier.displayName)").tag(modifier)
-                    }
+                LabeledContent("Trigger") {
+                    ShortcutRecorder(
+                        trigger: triggerBinding,
+                        doubleTapWindow: settings.configuration.doubleTapWindow
+                    )
+                    .frame(height: 22)
                 }
                 LabeledContent("Double-tap speed") {
                     HStack {
@@ -40,8 +42,15 @@ struct SettingsView: View {
                             .frame(width: 52, alignment: .trailing)
                     }
                 }
+                // Meaningless for a chord trigger, and dimming it is how the field
+                // explains that the two settings belong together.
+                .disabled(!settings.configuration.trigger.isDoubleTap)
             } header: {
                 Text("Activation")
+            } footer: {
+                Text("Click the field and press the shortcut you want. To use a double-tapped modifier instead, tap that modifier twice \u{2014} left and right count as different keys. Escape cancels; Delete restores the default.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
 
             Section {
@@ -112,10 +121,10 @@ struct SettingsView: View {
 
     // MARK: - Bindings
 
-    private var triggerBinding: Binding<TriggerModifier> {
+    private var triggerBinding: Binding<Trigger> {
         Binding(
-            get: { settings.configuration.triggerModifier },
-            set: { settings.configuration.triggerModifier = $0 }
+            get: { settings.configuration.trigger },
+            set: { settings.configuration.trigger = $0 }
         )
     }
 

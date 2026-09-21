@@ -1,8 +1,8 @@
 # Blip
 
-Keyboard-driven targeting for everything on your Mac. Double-tap **Right ⌘**, every
-clickable thing on screen gets a number, and you either type the number or type what the
-thing is called.
+Keyboard-driven targeting for everything on your Mac. Double-tap **Right ⌘** — or any
+shortcut you assign in Settings — and every clickable thing on screen gets a number;
+you either type the number or type what the thing is called.
 
 It merges what three separate tools do: Homerow's hint labels, Wooshy's search-by-text,
 and Superkey's double-tap trigger — across every visible window, not one app.

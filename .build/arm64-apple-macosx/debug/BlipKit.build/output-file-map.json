@@ -65,6 +65,13 @@
     "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swiftdeps",
     "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.dia"
   },
+  "/Users/tia/Documents/blip/Sources/BlipKit/Trigger.swift": {
+    "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.d",
+    "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swift.o",
+    "swiftmodule": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger~partial.swiftmodule",
+    "swift-dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swiftdeps",
+    "diagnostics": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.dia"
+  },
   "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift": {
     "dependencies": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.d",
     "object": "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o",

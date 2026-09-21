@@ -20,9 +20,9 @@ public struct CapturedKey: Sendable, Equatable {
 /// The single `CGEventTap` behind both the trigger and overlay key capture.
 ///
 /// One tap does both jobs because two taps on the same stream would race over who gets
-/// to swallow a keystroke. While idle it watches for the double-tapped modifier; while
-/// `isCapturing` is set it swallows every key and hands it to `onKey` instead, so
-/// nothing leaks into the app underneath.
+/// to swallow a keystroke. While idle it watches for the configured trigger -- either a
+/// chord or a double-tapped modifier; while `isCapturing` is set it swallows every key
+/// and hands it to `onKey` instead, so nothing leaks into the app underneath.
 ///
 /// The tap lives at `.cgSessionEventTap`, which Accessibility permission alone is
 /// enough to authorise. `.cghidEventTap` would additionally require Input Monitoring,
@@ -104,7 +104,7 @@ public final class TriggerTap {
         runLoopSource = source
         CFRunLoopAddSource(CFRunLoopGetMain(), source, .commonModes)
         CGEvent.tapEnable(tap: tap, enable: true)
-        Log.tap.notice("event tap started, trigger=\(self.configuration.triggerModifier.rawValue, privacy: .public) keyCode=\(self.configuration.triggerModifier.keyCode)")
+        Log.tap.notice("event tap started, trigger=\(self.configuration.trigger.displayString, privacy: .public)")
     }
 
     public func stop() {
@@ -175,6 +175,16 @@ public final class TriggerTap {
 
         switch type {
         case .keyDown:
+            if case .hotKey(let hotKey) = configuration.trigger, matches(hotKey, event: event) {
+                // Holding the chord down must not fire over and over.
+                if event.getIntegerValueField(.keyboardEventAutorepeat) == 0 {
+                    Log.tap.notice("hot key detected, firing trigger")
+                    MainActor.assumeIsolated { onTrigger?() }
+                }
+                // Swallow: whatever the chord means to the app underneath, it now
+                // belongs to Blip.
+                return nil
+            }
             // Any other key means the modifier is part of a chord, not a tap.
             sawOtherKeyDuringHold = true
             lastModifierReleaseTime = 0
@@ -187,15 +197,26 @@ public final class TriggerTap {
         return Unmanaged.passUnretained(event)
     }
 
+    private func matches(_ hotKey: HotKey, event: CGEvent) -> Bool {
+        guard UInt16(event.getIntegerValueField(.keyboardEventKeycode)) == hotKey.keyCode else {
+            return false
+        }
+        return HotKey.Modifiers(eventFlags: event.flags) == hotKey.modifiers
+    }
+
     private func handleFlagsChanged(_ event: CGEvent) {
+        guard case .doubleTapModifier(let triggerModifier) = configuration.trigger else { return }
+
         let keyCode = UInt16(event.getIntegerValueField(.keyboardEventKeycode))
-        guard keyCode == configuration.triggerModifier.keyCode else {
+        guard keyCode == triggerModifier.keyCode else {
             // A different modifier joined in; that is a chord.
             if modifierIsDown { sawOtherKeyDuringHold = true }
             return
         }
 
-        let isDown = Self.isModifierDown(configuration.triggerModifier, flags: event.flags)
+        // `flagsChanged` reports the state *after* the change, so the modifier's flag
+        // being set means it was just pressed and cleared means it was just released.
+        let isDown = event.flags.contains(triggerModifier.flag)
         Log.tap.debug("trigger modifier \(isDown ? "down" : "up", privacy: .public) sawOther=\(self.sawOtherKeyDuringHold) gap=\(CFAbsoluteTimeGetCurrent() - self.lastModifierReleaseTime)")
 
         if isDown {
@@ -217,17 +238,6 @@ public final class TriggerTap {
             MainActor.assumeIsolated { onTrigger?() }
         } else {
             lastModifierReleaseTime = now
-        }
-    }
-
-    /// `flagsChanged` reports the state *after* the change, so the modifier's bit being
-    /// set means it was just pressed and cleared means it was just released.
-    private static func isModifierDown(_ modifier: TriggerModifier, flags: CGEventFlags) -> Bool {
-        switch modifier {
-        case .rightCommand, .leftCommand: return flags.contains(.maskCommand)
-        case .rightOption, .leftOption: return flags.contains(.maskAlternate)
-        case .rightControl: return flags.contains(.maskControl)
-        case .rightShift: return flags.contains(.maskShift)
         }
     }
 

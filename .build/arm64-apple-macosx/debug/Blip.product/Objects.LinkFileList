@@ -7,6 +7,7 @@
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/PermissionMonitor.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SessionController.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swift.o
+/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/Geometry.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipCore.build/HintLabels.swift.o
@@ -24,5 +25,6 @@
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o
+/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o
 /Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o

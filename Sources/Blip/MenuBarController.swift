@@ -70,9 +70,9 @@ final class MenuBarController {
     private func rebuildMenu() {
         let menu = NSMenu()
 
-        let trigger = settings.configuration.triggerModifier
+        let trigger = settings.configuration.trigger
         let activate = NSMenuItem(
-            title: "Show Hints  (double-tap \(trigger.symbol))",
+            title: "Show Hints  (\(trigger.menuDescription))",
             action: #selector(activateAction),
             keyEquivalent: ""
         )

@@ -64,6 +64,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/ShortcutRecorder.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/tia/Documents/blip/Sources/Blip/Theme.swift"
         },
         {
@@ -92,6 +96,7 @@
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/PermissionMonitor.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SessionController.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o"
       ],
       "otherArguments" : [
@@ -183,6 +188,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/Theme.swift.o"
         },
         {
@@ -201,6 +210,7 @@
         "/Users/tia/Documents/blip/Sources/Blip/PermissionMonitor.swift",
         "/Users/tia/Documents/blip/Sources/Blip/SessionController.swift",
         "/Users/tia/Documents/blip/Sources/Blip/SettingsView.swift",
+        "/Users/tia/Documents/blip/Sources/Blip/ShortcutRecorder.swift",
         "/Users/tia/Documents/blip/Sources/Blip/Theme.swift"
       ],
       "tempsPath" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build",
@@ -534,6 +544,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Trigger.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift"
         },
         {
@@ -566,6 +580,7 @@
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScanCoordinator.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/ScreenInfo.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o",
+        "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o",
         "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/WindowEnumerator.swift.o"
       ],
@@ -658,6 +673,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/TriggerTap.swift.o"
         },
         {
@@ -680,6 +699,7 @@
         "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift",
         "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift",
         "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift",
+        "/Users/tia/Documents/blip/Sources/BlipKit/Trigger.swift",
         "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift",
         "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift"
       ],
@@ -897,6 +917,7 @@
       "/Users/tia/Documents/blip/Sources/Blip/PermissionMonitor.swift",
       "/Users/tia/Documents/blip/Sources/Blip/SessionController.swift",
       "/Users/tia/Documents/blip/Sources/Blip/SettingsView.swift",
+      "/Users/tia/Documents/blip/Sources/Blip/ShortcutRecorder.swift",
       "/Users/tia/Documents/blip/Sources/Blip/Theme.swift",
       "-I",
       "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Modules",
@@ -1095,6 +1116,7 @@
       "/Users/tia/Documents/blip/Sources/BlipKit/ScanCoordinator.swift",
       "/Users/tia/Documents/blip/Sources/BlipKit/ScreenInfo.swift",
       "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift",
+      "/Users/tia/Documents/blip/Sources/BlipKit/Trigger.swift",
       "/Users/tia/Documents/blip/Sources/BlipKit/TriggerTap.swift",
       "/Users/tia/Documents/blip/Sources/BlipKit/WindowEnumerator.swift",
       "-I",
@@ -1374,6 +1396,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/Blip/ShortcutRecorder.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/tia/Documents/blip/Sources/Blip/Theme.swift"
         }
       ],
@@ -1421,6 +1447,10 @@
         {
           "kind" : "file",
           "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/Blip.build/ShortcutRecorder.swift.o"
         },
         {
           "kind" : "file",
@@ -1489,6 +1519,10 @@
         {
           "kind" : "file",
           "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swift.o"
         },
         {
           "kind" : "file",
@@ -1611,6 +1645,10 @@
         {
           "kind" : "file",
           "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Settings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/Sources/BlipKit/Trigger.swift"
         },
         {
           "kind" : "file",
@@ -1783,6 +1821,10 @@
         {
           "kind" : "file",
           "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Settings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tia/Documents/blip/.build/arm64-apple-macosx/debug/BlipKit.build/Trigger.swift.o"
         },
         {
           "kind" : "file",
