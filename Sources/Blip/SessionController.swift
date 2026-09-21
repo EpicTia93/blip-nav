@@ -187,6 +187,19 @@ final class SessionController {
             return
         }
 
+        // Tab walks the pointer through the matches the query left behind, so a query
+        // that narrows to a handful does not have to be narrowed further to reach the
+        // one that is not first. Shift-Tab walks back.
+        if press.isTab {
+            prefixTimeoutTask?.cancel()
+            if press.flags.contains(.maskShift) {
+                state.selectPrevious()
+            } else {
+                state.selectNext()
+            }
+            return
+        }
+
         guard let character = press.characters.first else { return }
 
         if character.isNumber {

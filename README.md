@@ -19,7 +19,8 @@ Two scanners run on every activation and are merged:
 Accessibility results are drawn immediately; OCR results are appended when they land, so
 numbers already on screen never change under your fingers.
 
-Keys: **letters filter · digits select · Enter takes the top match · Esc dismisses**.
+Keys: **letters filter · digits select · Tab steps between remaining matches · Enter
+takes the pointed-at match · Esc dismisses**.
 Numbers are assigned once per activation and stay put, which is what lets digits and
 letters share one prompt unambiguously.
 
