@@ -4,7 +4,7 @@ import BlipKit
 import SwiftUI
 
 /// The heads-up display: a hint chip on every target, plus the search bar and, while
-/// filtering, a connector line to the match Enter would take.
+/// filtering, a connector line to the match Enter would take -- which Tab moves.
 ///
 /// One instance per screen. Each only draws the targets whose centre falls on its own
 /// screen, and only the active screen draws the search bar.
@@ -22,7 +22,7 @@ struct OverlayView: View {
                 // made the underlying app harder to use, not the hints easier to see.
                 Color.clear
 
-                if showsSearchBar, let match = state.topMatch, !state.query.isEmpty,
+                if showsSearchBar, state.hasPointer, let match = state.topMatch,
                    let end = localCenter(of: match) {
                     ConnectorLine(
                         from: OverlayMetrics.connectorOrigin(in: proxy.size),
@@ -113,7 +113,7 @@ struct OverlayView: View {
             return Chip(
                 target: target,
                 position: CGPoint(x: max(0, local.minX), y: y),
-                isTopMatch: target.id == topMatchID && !state.query.isEmpty
+                isTopMatch: target.id == topMatchID && state.hasPointer
             )
         }
     }
@@ -192,6 +192,9 @@ private struct HintChip: View {
                     lineWidth: isTopMatch ? 1.5 : 0.5
                 )
         )
+        // Flatten first: a bare .shadow() is a style that each leaf primitive draws
+        // for itself, which puts a blurry halo around the digits as well as the chip.
+        .compositingGroup()
         .shadow(color: .black.opacity(0.4), radius: 1.5, y: 0.5)
         .fixedSize()
     }
@@ -227,6 +230,14 @@ private struct SearchBar: View {
                 ProgressView()
                     .controlSize(.small)
                     .scaleEffect(0.7)
+            }
+
+            // Tab is only useful while something is left to step to, and it is not a
+            // key anyone would guess at, so say so exactly when it applies.
+            if state.visibleTargets.count > 1, !state.query.isEmpty {
+                Text("\u{21E5}")
+                    .font(.system(size: 12, weight: .semibold, design: .rounded))
+                    .foregroundStyle(state.selectionID == nil ? Theme.accent.opacity(0.4) : Theme.accent)
             }
 
             Text("\(state.visibleTargets.count)")
