@@ -114,6 +114,21 @@ public struct AXElement: TargetHandle, @unchecked Sendable {
         actionNames.contains(kAXPressAction as String)
     }
 
+    /// Whether this element lives inside rendered web content (a browser page, or an
+    /// Electron app's UI), found by walking up to an `AXWebArea` ancestor.
+    public var isInWebArea: Bool {
+        var current = element(kAXParentAttribute as String)
+        for _ in 0..<64 {
+            guard let node = current else { return false }
+            switch node.role {
+            case "AXWebArea": return true
+            case "AXWindow", "AXApplication": return false
+            default: current = node.element(kAXParentAttribute as String)
+            }
+        }
+        return false
+    }
+
     /// The `CGWindowID` of the window this element belongs to, when resolvable.
     public var windowID: CGWindowID? {
         var identifier: CGWindowID = 0

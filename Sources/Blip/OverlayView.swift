@@ -212,7 +212,7 @@ private struct SearchBar: View {
 
             // Laid out in a single row so the caret sits *after* the typed text and
             // *before* the placeholder, instead of being drawn on top of it.
-            HStack(spacing: 3) {
+            HStack(spacing: 1) {
                 if !state.query.isEmpty {
                     Text(state.query)
                         .foregroundStyle(Theme.searchBarText)

@@ -11,13 +11,17 @@ import Foundation
 /// 1. `AXPress` on the element. Precise, synchronous, and independent of where the
 ///    mouse happens to be or what is drawn on top.
 /// 2. A synthesised mouse click at the target's centre. The only option for OCR
-///    targets, and the fallback when an element advertises no press action or its
-///    press returns an error.
+///    targets, the fallback when an element advertises no press action or its
+///    press returns an error, and the first choice for web content (see below).
 public enum Actuator {
 
     /// How long to let a raised window come forward before clicking into it. A
     /// synthetic click posted too early lands on whatever was in front a moment ago.
     public static let raiseSettleDelay: Duration = .milliseconds(60)
+
+    /// Gap between the synthetic move, down and up events, so the target app sees
+    /// them as a hover followed by a click rather than one indistinguishable burst.
+    public static let clickStepDelay: Duration = .milliseconds(15)
 
     public enum Outcome: Sendable, Equatable {
         case pressed
@@ -29,14 +33,19 @@ public enum Actuator {
     public static func activate(_ target: Target) async -> Outcome {
         await bringForwardIfNeeded(target)
 
-        if let element = target.handle as? AXElement, element.supportsPress {
+        // Web content gets a real click instead of AXPress. Chromium and WebKit accept
+        // AXPress on anything with a click handler and report success, but only fire a
+        // bare `click` event: no pointerdown/mousedown, which is what React and Radix
+        // style controls actually listen for. The press "succeeds" and nothing happens.
+        if let element = target.handle as? AXElement, element.supportsPress,
+           !element.isInWebArea {
             let error = element.press()
             if error == .success { return .pressed }
             // Fall through: some controls list AXPress but reject it, notably web
             // content that has been re-rendered since the scan.
         }
 
-        return click(at: target.center)
+        return await click(at: target.center)
     }
 
     // MARK: - Focus
@@ -76,8 +85,12 @@ public enum Actuator {
     /// respond to a click that arrives with the cursor genuinely over them, and some
     /// reveal hover state first. Restoring it afterwards keeps the click from
     /// disturbing whatever the user was pointing at.
+    ///
+    /// The events are spaced out and carry a click count: browsers drop a mouse-down
+    /// with a click count of 0 from click dispatch, and a down/up pair arriving in the
+    /// same instant as the move can be processed before hover state has settled.
     @discardableResult
-    public static func click(at point: CGPoint) -> Outcome {
+    public static func click(at point: CGPoint) async -> Outcome {
         let previousLocation = CGEvent(source: nil)?.location
         guard let source = CGEventSource(stateID: .combinedSessionState) else {
             return .failed("could not create event source")
@@ -103,7 +116,11 @@ public enum Actuator {
                 mouseCursorPosition: point,
                 mouseButton: button
             ) else { return .failed("could not create \(type) event") }
+            if type != .mouseMoved {
+                event.setIntegerValueField(.mouseEventClickState, value: 1)
+            }
             event.post(tap: .cghidEventTap)
+            try? await Task.sleep(for: clickStepDelay)
         }
 
         if let previousLocation {
