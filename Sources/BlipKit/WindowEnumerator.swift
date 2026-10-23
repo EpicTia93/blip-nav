@@ -25,6 +25,7 @@ public enum WindowEnumerator {
             return []
         }
 
+        let displays = OCRScanner.activeDisplayBounds()
         var result: [ScreenWindow] = []
         var depth = 0
 
@@ -43,6 +44,7 @@ public enum WindowEnumerator {
             let alpha = entry[kCGWindowAlpha as String] as? CGFloat ?? 1
             guard alpha > minimumAlpha else { continue }
             guard bounds.width >= minimumWindowSize, bounds.height >= minimumWindowSize else { continue }
+            guard !isScreenOverlay(layer: layer, bounds: bounds, displays: displays) else { continue }
 
             result.append(
                 ScreenWindow(
@@ -68,6 +70,17 @@ public enum WindowEnumerator {
     /// desktop icons (negative layers), screen-saver and cursor windows.
     private static func isInterestingLayer(_ layer: Int) -> Bool {
         layer == 0 || (layer >= 20 && layer <= 25)
+    }
+
+    /// A window above the normal layer that blankets an entire display.
+    ///
+    /// Nothing legitimate in the Dock / menu bar layers is display-sized; what is, is a
+    /// see-through overlay. `screencaptureui` parks one at layer 24 with alpha 1 and
+    /// leaves it there long after the screenshot is taken, and treating it as an
+    /// occluder hid every window hint on that display.
+    static func isScreenOverlay(layer: Int, bounds: CGRect, displays: [CGRect]) -> Bool {
+        guard layer != 0 else { return false }
+        return displays.contains { bounds.contains($0) }
     }
 
     /// Groups windows by owning process, so the AX scanner can spin up one task per app

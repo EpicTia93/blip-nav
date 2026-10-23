@@ -156,9 +156,17 @@ public enum OCRScanner {
                 excludingApplications: ownApps,
                 exceptingWindows: []
             )
+            // Never ask for more pixels than the display has: upscaling a 1x display
+            // only adds Vision work, it cannot add detail.
+            let scale = min(options.captureScale, nativeScale(of: display.displayID, bounds: bounds))
             let configuration = SCStreamConfiguration()
-            configuration.width = Int(bounds.width * options.captureScale)
-            configuration.height = Int(bounds.height * options.captureScale)
+            configuration.width = Int(bounds.width * scale)
+            configuration.height = Int(bounds.height * scale)
+            // Without this, a buffer larger than the display's native pixels gets the
+            // frame drawn unscaled into its top-left corner. Vision's normalised boxes
+            // are relative to the whole buffer, so every OCR hint landed shrunk towards
+            // the display origin (by 1/1.5 on a 1x monitor).
+            configuration.scalesToFit = true
             configuration.captureResolution = .best
             configuration.showsCursor = false
             image = try await SCScreenshotManager.captureImage(
@@ -205,6 +213,13 @@ public enum OCRScanner {
             captureDuration: captureDuration,
             recognizeDuration: Date().timeIntervalSince(recognizeStarted)
         )
+    }
+
+    /// Pixels per point of the display's current mode: 1 on a standard monitor, 2 on
+    /// Retina, something in between on a scaled Retina mode.
+    private static func nativeScale(of displayID: CGDirectDisplayID, bounds: CGRect) -> CGFloat {
+        guard let mode = CGDisplayCopyDisplayMode(displayID), bounds.width > 0 else { return 1 }
+        return max(1, CGFloat(mode.pixelWidth) / bounds.width)
     }
 
     private static func splitIntoWords(
