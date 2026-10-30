@@ -42,6 +42,15 @@ that line changes between builds, permissions will reset.
 The app is deliberately **not sandboxed**: the App Sandbox blocks Accessibility control
 of other processes entirely.
 
+## Launch on Login
+
+Enable **Settings → General → Launch on Login** to start Blip automatically when you
+sign in. With permissions granted, it starts quietly in the menu bar. The setting
+uses macOS Login Items directly; changes made in System Settings are reflected when
+you return to Blip. If macOS requires approval, Settings provides a link to Login
+Items. Use the signed `build/Blip.app` (`make run`), rather than the bare SPM executable,
+when changing this setting.
+
 ## Permissions
 
 | Grant | Needed for | Without it |

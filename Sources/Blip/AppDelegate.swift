@@ -7,6 +7,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     private let settings = SettingsStore()
     private let permissions = PermissionMonitor()
+    private let loginItem = LoginItemController()
     private var session: SessionController!
     private var menuBar: MenuBarController!
     private var settingsWindow: NSWindow?
@@ -81,15 +82,16 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func showSettings() {
+        loginItem.refresh()
         if let window = settingsWindow {
             window.makeKeyAndOrderFront(nil)
             NSApp.activate(ignoringOtherApps: true)
             return
         }
 
-        let view = SettingsView(settings: settings, permissions: permissions)
+        let view = SettingsView(settings: settings, permissions: permissions, loginItem: loginItem)
         let window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 460, height: 340),
+            contentRect: NSRect(x: 0, y: 0, width: 460, height: 480),
             styleMask: [.titled, .closable, .miniaturizable],
             backing: .buffered,
             defer: false

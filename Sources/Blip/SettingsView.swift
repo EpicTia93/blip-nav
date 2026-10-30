@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     @ObservedObject var settings: SettingsStore
     @ObservedObject var permissions: PermissionMonitor
+    @ObservedObject var loginItem: LoginItemController
 
     var body: some View {
         TabView {
@@ -18,13 +19,46 @@ struct SettingsView: View {
             permissionsTab
                 .tabItem { Label("Permissions", systemImage: "lock.shield") }
         }
-        .frame(width: 460, height: 380)
+        .frame(width: 460, height: 480)
+        .onAppear { loginItem.refresh() }
+        .onReceive(NotificationCenter.default.publisher(for: NSApplication.didBecomeActiveNotification)) { _ in
+            loginItem.refresh()
+        }
     }
 
     // MARK: - General
 
     private var generalTab: some View {
         Form {
+            Section {
+                Toggle("Launch on Login", isOn: Binding(
+                    get: { loginItem.isEnabled },
+                    set: { loginItem.setEnabled($0) }
+                ))
+
+                if loginItem.requiresApproval {
+                    Text("Allow Blip in System Settings → General → Login Items to finish enabling Launch on Login.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    Button("Open Login Items Settings…") {
+                        loginItem.openLoginItemsSettings()
+                    }
+                }
+
+                if let error = loginItem.errorMessage {
+                    Text(error)
+                        .font(.caption)
+                        .foregroundStyle(.red)
+                        .textSelection(.enabled)
+                }
+            } header: {
+                Text("Startup")
+            } footer: {
+                Text("Start Blip automatically when you sign in. It runs in the menu bar without opening a window when permissions are already granted.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
             Section {
                 LabeledContent("Trigger") {
                     ShortcutRecorder(
